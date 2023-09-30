@@ -52,7 +52,6 @@ app.get("/", function (req, res) {
         });
 
 });
-//  res.render("list", { listTitle: "TODAY", newListItem: items });
 
 // });
 app.post("/", async function (req, res) {
