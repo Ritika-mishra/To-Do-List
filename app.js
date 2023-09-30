@@ -53,7 +53,6 @@ app.get("/", function (req, res) {
 
 });
 
-// });
 app.post("/", async function (req, res) {
     await Item.create({ name: item })
     res.redirect("/");
